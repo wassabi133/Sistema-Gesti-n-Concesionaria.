@@ -12,8 +12,11 @@ Digitalizar la administración de unidades disponibles para la venta de una conc
 El sistema modela la lógica de negocio a través de una jerarquía de clases bien definida:
 
 *`Concesionaria` (`ConcesionariaN.cls`): Clase gestora principal. Administra el stock respetando la capacidad máxima de exposición, registra sucursal, ciudad y porcentaje de comisión, y ejecuta las consultas, filtros y estadísticas.
+
 *`Vehiculo` (`VehiculoN.cls`): Superclase abstracta/general que agrupa los atributos compartidos: patente única, marca, modelo, año de fabricación, precio, kilometraje y estado (*Disponible*, *Reservado* o *Vendido*).
+
 *`Auto` (`AutoN.cls`): Subclase de `Vehiculo` que incorpora cantidad de puertas y capacidad de baúl. Implementa polimórficamente el cálculo de seguro (3% del precio base + 1% adicional para modelos anteriores a 2015).
+
 *`Moto` (`MotoN.cls`): Subclase de `Vehiculo` que registra cilindrada y sistema ABS. Implementa su propia lógica de seguro (2% del precio base + 1% adicional si supera los 300 cc).
 
 # Funcionalidades Principales
