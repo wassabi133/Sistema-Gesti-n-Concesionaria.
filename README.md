@@ -23,7 +23,7 @@ El sistema modela la lógica de negocio a través de una jerarquía de clases bi
 *Gestión de Stock (ABM): Alta de unidades con control de límite de capacidad, búsqueda individual por patente, modificación de datos y baja del inventario.
 *Listados y Filtros Dinámicos: Generación de reportes de vehículos fabricados antes de 2015, unidades con menos de 30.000 km y filtrado personalizado por marca.
 *Análisis Estadístico y Seguros: Cálculo de precio promedio de unidades disponibles, detección de vehículos que superan 1.5x el promedio, búsqueda de la unidad más económica y sumatoria total de costos de seguro estimados.
-*Depuración y Agrupamiento:** Eliminación masiva de unidades en estado *Vendido* y generación de un Diccionario (`Dictionary') con el conteo de unidades disponibles agrupadas por marca.
+*Depuración y Agrupamiento:** Eliminación masiva de unidades en estado *Vendido* y generación de un Diccionario (`Dictionary`) con el conteo de unidades disponibles agrupadas por marca.
 
 #  Contenido del Repositorio
 * **`trabajoFinal.st`:** Paquete completo listo para importar en el entorno Dolphin Smalltalk.
